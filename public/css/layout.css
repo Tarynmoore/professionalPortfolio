@@ -1,4 +1,4 @@
-/*
+/* 
 =====================================================================
 *   Ceevee v1.0 Layout Stylesheet
 *   url: styleshout.com
@@ -28,6 +28,8 @@ body { background: #0f0f0f; }
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
+
+/* THIS IS FOR THE IMAGE  */
 header {
    position: relative;
    height: 800px;
@@ -193,8 +195,8 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+/* #about a, #about a:visited  { color: #fff; }
+#about a:hover, #about a:focus { color: #11ABB0; } */
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -203,7 +205,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: white;
 }
 #about .profile-pic {
    position: relative;
